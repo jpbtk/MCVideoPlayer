@@ -1,0 +1,9 @@
+name: VideoPlugin
+version: 1.0.0
+main: com.example.videoplugin.VideoPlugin
+description: Minecraft内で動画を再生するためのプラグイン
+author: YourName
+commands:
+  video:
+    description: 動画スクリーンを管理します
+    usage: /video create <スクリーン名> | /video play <スクリーン名> <動画URL> | /video reload <スクリーン名>
